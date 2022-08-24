@@ -1,5 +1,5 @@
 {% set name = "mapyde" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 46f4ebe1573aa2e1ca0e8738d9e7860b557e25d7e054beeb87c57960830f3336
+  sha256: 8a0dfe8017c937bcbe04d45e6a4c318de32a4b0f1f34252f1a2d8e633bcd00c8
 
 build:
   noarch: python
@@ -48,10 +48,7 @@ about:
   summary: Generation, simulation, analysis, and statistical inference in one go.
 
   description: >
-    MaPyDe stands for MadGraph-Pythia-Delphes which is a utility that allows
-    one to run all of the various HEP toolings or chain them together and
-    perform a quick analysis with the results, such as running CERN ATLAS
-    SimpleAnalysis or pyhf.
+    MaPyDe stands for MadGraph-Pythia-Delphes which is a utility that allows one to run all of the various HEP toolings or chain them together and perform a quick analysis with the results, such as running CERN ATLAS SimpleAnalysis or pyhf.
   doc_url: https://mapyde.readthedocs.io/
   dev_url: https://github.com/scipp-atlas/mario-mapyde
 
