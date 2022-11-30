@@ -49,7 +49,7 @@ about:
 
   description: >
     MaPyDe stands for MadGraph-Pythia-Delphes which is a utility that allows one to run all of the various HEP toolings or chain them together and perform a quick analysis with the results, such as running CERN ATLAS SimpleAnalysis or pyhf.
-  doc_url: https://mapyde.readthedocs.io/
+  doc_url: https://scipp-atlas.github.io/mario-mapyde/latest/
   dev_url: https://github.com/scipp-atlas/mario-mapyde
 
 extra:
