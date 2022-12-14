@@ -11,7 +11,7 @@ Summary: Generation, simulation, analysis, and statistical inference in one go.
 
 Development: https://github.com/scipp-atlas/mario-mapyde
 
-Documentation: https://mapyde.readthedocs.io/
+Documentation: https://scipp-atlas.github.io/mario-mapyde/latest/
 
 MaPyDe stands for MadGraph-Pythia-Delphes which is a utility that allows one to run all of the various HEP toolings or chain them together and perform a quick analysis with the results, such as running CERN ATLAS SimpleAnalysis or pyhf.
 
