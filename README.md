@@ -1,11 +1,11 @@
-About mapyde
-============
+About mapyde-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mapyde-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/scipp-atlas/mario-mapyde
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mapyde-feedstock/blob/main/LICENSE.txt)
 
 Summary: Generation, simulation, analysis, and statistical inference in one go.
 
