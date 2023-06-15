@@ -1,5 +1,5 @@
 {% set name = "mapyde" %}
-{% set version = "0.4.9" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2cf2cf15bc7ced8a7e813204c525052851889848e81fc81dcbc9784c0356244e
+  sha256: 61075fc0cb8336ee1334372270baa56634ad7e13a075c7397d7511f370959201
 
 build:
   noarch: python
