@@ -26,10 +26,12 @@ requirements:
     - python >=3.7
     - typing_extensions >=3.7  # python < 3.8
     - typer
-    - toml
+    - tomli # python < 3.11
+    - timli-w
     - jinja2
     - in_place
     - importlib_resources >=1.3.0  # python < 3.9
+    - trogon
 
 test:
   requires:
@@ -41,7 +43,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/scipp-atlas/mario-mapyde
+  home: https://github.com/scipp-atlas/mapyde
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
@@ -49,8 +51,8 @@ about:
 
   description: >
     MaPyDe stands for MadGraph-Pythia-Delphes which is a utility that allows one to run all of the various HEP toolings or chain them together and perform a quick analysis with the results, such as running CERN ATLAS SimpleAnalysis or pyhf.
-  doc_url: https://scipp-atlas.github.io/mario-mapyde/latest/
-  dev_url: https://github.com/scipp-atlas/mario-mapyde
+  doc_url: https://scipp-atlas.github.io/mapyde/latest/
+  dev_url: https://github.com/scipp-atlas/mapyde
 
 extra:
   recipe-maintainers:
