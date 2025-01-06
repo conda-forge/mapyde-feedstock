@@ -6,24 +6,24 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 61075fc0cb8336ee1334372270baa56634ad7e13a075c7397d7511f370959201
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - mapyde = mapyde.cli:app
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - hatchling >=0.7
     - hatch-vcs
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - typing_extensions >=3.7  # python < 3.8
     - typer
     - tomli # python < 3.11
@@ -36,6 +36,7 @@ requirements:
 test:
   requires:
     - pip
+    - python {{ python_min }}
   imports:
     - mapyde
   commands:
