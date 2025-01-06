@@ -3,15 +3,15 @@ About mapyde-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mapyde-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/scipp-atlas/mario-mapyde
+Home: https://github.com/scipp-atlas/mapyde
 
 Package license: Apache-2.0
 
 Summary: Generation, simulation, analysis, and statistical inference in one go.
 
-Development: https://github.com/scipp-atlas/mario-mapyde
+Development: https://github.com/scipp-atlas/mapyde
 
-Documentation: https://scipp-atlas.github.io/mario-mapyde/latest/
+Documentation: https://scipp-atlas.github.io/mapyde/latest/
 
 MaPyDe stands for MadGraph-Pythia-Delphes which is a utility that allows one to run all of the various HEP toolings or chain them together and perform a quick analysis with the results, such as running CERN ATLAS SimpleAnalysis or pyhf.
 
@@ -102,7 +102,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
